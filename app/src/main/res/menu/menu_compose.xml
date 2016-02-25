@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.omc.lilliput.Compose">
+
+    <item
+        android:id="@+id/action_logout"
+
+        android:title="Logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:title="Update status"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_posts"
+        android:orderInCategory="100"
+        android:title="Posts"
+        app:showAsAction="always"
+        />  <item
+    android:id="@+id/action_compose"
+    android:orderInCategory="100"
+    android:title="Compose"
+    app:showAsAction="always"
+    />
+    <item
+        android:id="@+id/action_chat"
+        android:orderInCategory="100"
+        android:title="Chat list"
+        app:showAsAction="always"
+        />
+
+</menu>

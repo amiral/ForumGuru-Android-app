@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/front1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="#502B3F"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Have a question or comment?&#13;&#10;Start a new discussion here"
+
+            android:textColor="#ffffff"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textAlignment="center" />
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Have your own Topic Now!! "
+        android:id="@+id/textView"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ecd5d5" />
+
+
+
+    <EditText
+        android:layout_marginTop="@dimen/pad_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:id="@+id/editText"
+        android:textColor="@color/white_smoke"
+        android:layout_gravity="center_horizontal"
+        android:hint=" Topic / Query " />
+    <EditText
+        android:layout_marginTop="@dimen/pad_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/white_smoke"
+        android:id="@+id/editText2"
+        android:hint="Description about your topic / query " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="choose category :"
+        android:layout_marginLeft="@dimen/pad_15dp"
+        android:layout_marginTop="25dp"
+
+        android:id="@+id/textView2"
+        android:textColor="@color/white" />
+
+    <Spinner
+        android:layout_marginTop="5dp"
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_arrays"
+
+        android:prompt="@string/country_prompt"
+        android:spinnerMode="dropdown"
+        android:background="#f7b2d1" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:background="#D24958"
+        android:textColor="#fff"
+        android:layout_marginTop="35dp"
+        android:text="Add topic"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

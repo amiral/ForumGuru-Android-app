@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="{relativePackage}.${activityClass}"
+    android:orientation="vertical"
+    android:background="@drawable/front1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#502B3F"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Gallery"
+
+            android:textColor="#ffffff"
+
+
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="@dimen/pad_20dp"
+            android:id="@+id/fc" />
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="fill_parent"
+        android:layout_height="320dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#cfcfcf"
+
+        android:src="@drawable/i" />
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="0dp"
+        />
+
+
+</LinearLayout>

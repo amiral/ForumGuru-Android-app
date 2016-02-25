@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.omc.lilliput.Compose"
+    android:background="@drawable/front1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#502B3F"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+
+            android:textColor="#ffffff"
+
+
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/pad_20dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            />
+
+
+
+    </LinearLayout>
+
+    <ImageView android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/imv"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/cus"
+        android:layout_marginTop="@dimen/pad_10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Drop us a line that we can hear from you"
+
+        android:textColor="#ffffff"
+
+
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/pad_10dp"
+        android:layout_marginLeft="@dimen/pad_10dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/c_sub"
+        android:textColor="@color/white"
+        android:hint="Subject..."
+
+        android:layout_below="@+id/imv"
+
+        android:layout_marginTop="25dp"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/c_mes"
+        android:textColor="@color/white"
+        android:hint="Message..."
+        android:layout_below="@+id/imv"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:background="#D24958"
+        android:textColor="#fff"
+        android:id="@+id/c_submit"
+        android:layout_marginTop="30dp"
+
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="forumguru2015@gmail.com"
+
+        android:textColor="@color/white_smoke"
+
+
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/pad_20dp"
+        android:layout_marginLeft="@dimen/pad_10dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="contact no  :  +918867310695"
+
+        android:textColor="@color/white_smoke"
+
+
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/pad_10dp"
+        android:layout_marginLeft="@dimen/pad_10dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        />
+
+
+</LinearLayout>

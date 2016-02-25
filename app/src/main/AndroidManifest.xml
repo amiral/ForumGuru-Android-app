@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.omc.forumguru">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ChatApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="ForumGuru"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lilliput">
+        <activity
+            android:name=".Index"
+            android:label="ForumGuru">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserList"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Register"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Chat"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Status"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Posts"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Compose"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Detailview"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Createtopic"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Forum"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".DetailForum"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Gallery"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Uploadimage"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Forgotpassword"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".push"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Faq"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".terms"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Contact"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Forumcategory"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Myqueries"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Myposts"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Aboutus"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".Login"
+            android:label="ForumGuru" />
+        <activity
+            android:name=".reply"
+            android:label="@string/title_activity_reply" />
+        <activity
+            android:name=".Loguot"
+            android:label="@string/title_activity_loguot" />
+        <activity
+            android:name=".Rateus"
+            android:label="@string/title_activity_rateus"></activity>
+    </application>
+
+</manifest>

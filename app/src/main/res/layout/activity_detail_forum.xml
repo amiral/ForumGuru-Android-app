@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.omc.lilliput.DetailForum"
+    android:background="#4E495C">
+
+
+
+
+    <ListView
+
+        android:padding="@dimen/pad_5dp"
+        android:layout_margin="@dimen/pad_5dp"
+
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:id="@+id/lis"
+        android:layout_marginTop="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="320dp"
+        android:layout_weight="1"
+        android:fastScrollEnabled="true"
+        tools:listitem="@layout/forumdetail_item" >
+    </ListView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gray_light"
+        android:gravity="center_vertical"
+        android:padding="@dimen/pad_5dp"
+        android:cacheColorHint="#FFDAFF7F"
+        android:layout_marginBottom="5dp">
+
+
+        <EditText
+            android:id="@+id/txt"
+            style="@style/edittext_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="    Reply" >
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSend"
+            style="@style/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_send" />
+
+    </LinearLayout>
+</LinearLayout>

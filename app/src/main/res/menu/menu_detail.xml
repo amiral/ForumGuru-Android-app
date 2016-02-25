@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.omc.lilliput.DetailView">
+
+    <item
+        android:id="@+id/action_logout"
+
+        android:title="Logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action"
+
+        android:title="Choose category"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_fh"
+        android:orderInCategory="100"
+        android:title="Forum Hub"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_wd"
+        android:orderInCategory="100"
+        android:title="Web development"
+        app:showAsAction="always"
+        />  <item
+    android:id="@+id/action_pl"
+    android:orderInCategory="100"
+    android:title="Programming languages"
+    app:showAsAction="always"
+    />
+    <item
+        android:id="@+id/action_os"
+        android:orderInCategory="100"
+        android:title="Operating systems"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_dbms"
+        android:orderInCategory="100"
+        android:title="Dbms"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_rb"
+        android:orderInCategory="100"
+        android:title="Robotics"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_iot"
+        android:orderInCategory="100"
+        android:title="Internet of things"
+        app:showAsAction="always"
+        />  <item
+    android:id="@+id/action_ar"
+    android:orderInCategory="100"
+    android:title="Arduino"
+    app:showAsAction="always"
+    />  <item
+    android:id="@+id/action_rs"
+    android:orderInCategory="100"
+    android:title="Raspberry pi"
+    app:showAsAction="always"
+    />  <item
+    android:id="@+id/action_au"
+    android:orderInCategory="100"
+    android:title="Automobiles"
+    app:showAsAction="always"
+    />
+
+    <item
+        android:id="@+id/action_sm"
+        android:orderInCategory="100"
+        android:title="Social media"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_an"
+        android:orderInCategory="100"
+        android:title="Android"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_g"
+        android:orderInCategory="100"
+        android:title="Gadgets"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_w"
+        android:orderInCategory="100"
+        android:title="Windows"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_e"
+        android:orderInCategory="100"
+        android:title="Entertainment"
+        app:showAsAction="always"
+        />
+
+</menu>

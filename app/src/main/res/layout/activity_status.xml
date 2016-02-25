@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="@drawable/front1">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#502B3F"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="My account"
+
+            android:textColor="#ffffff"
+
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/pad_20dp"
+
+            android:layout_gravity="center_horizontal|center_vertical"
+           />
+
+
+
+
+    </LinearLayout>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@color/main_color_gray_dk"
+    android:paddingLeft="@dimen/pad_10dp"
+    android:paddingTop="@dimen/pad_10dp"
+    android:paddingRight="@dimen/pad_10dp"
+    android:paddingBottom="@dimen/pad_10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout">
+
+    <ImageView android:layout_width="100dp" android:layout_height="80dp"
+        android:src="@drawable/user_chat1"
+        android:id="@+id/user_pic" />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pad_10dp">
+        <TextView android:textSize="@dimen/txt_16sp"
+            android:textStyle="normal" android:textColor="@color/white"
+            android:textAllCaps="true"
+           android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/ac_user" />
+        <TextView android:textSize="@dimen/txt_14sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"  android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/ac_email" />
+        <TextView android:textSize="@dimen/txt_14sp"
+            android:textColor="@color/white_smoke"
+            android:layout_marginTop="5dp"
+             android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/ac_status" />
+    </LinearLayout>
+ </LinearLayout>
+
+
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.omc.lilliput.Status"
+     android:layout_below="@+id/linearLayout"
+     android:layout_marginTop="0dp">
+
+     <Button
+         android:layout_width="250dp"
+     android:layout_height="38dp"
+     android:layout_gravity="center_horizontal"
+         android:text="Choose profile pic"
+         android:background="@color/main_color_gray"
+         android:textColor="#fff"
+
+         android:layout_marginTop="5dp"
+
+         android:id="@+id/ac_pic" />
+
+     <Button
+         android:layout_width="250dp"
+         android:layout_height="38dp"
+         android:layout_gravity="center_horizontal"
+         android:text="Update profile pic"
+         android:background="@color/main_color_gray"
+         android:textColor="#fff"
+
+         android:layout_marginTop="5dp"
+
+         android:id="@+id/ac_picup" />
+
+     <EditText
+         android:layout_width="fill_parent"
+         android:drawableLeft="@drawable/ic_compose"
+         android:layout_height="100dp"
+         android:layout_marginTop="25dp"
+         android:id="@+id/c_sub"
+         android:textColor="@color/white"
+         android:hint="  Status...."
+         android:layout_centerVertical="true"/>
+
+     <Button
+         android:layout_width="300dp"
+         android:layout_height="38dp"
+         android:layout_gravity="center_horizontal"
+         android:text="Update"
+         android:background="#D24958"
+         android:textColor="#fff"
+         android:id="@+id/updatestatus"
+         android:layout_marginTop="10dp"
+         android:layout_below="@+id/c_sub" />
+ </LinearLayout>
+    </LinearLayout>

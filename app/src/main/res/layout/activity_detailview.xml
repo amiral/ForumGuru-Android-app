@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#252338"
+    android:padding="@dimen/pad_20dp">
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textColor="#ecd5d5" />
+</LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_10dp"
+                android:orientation="vertical">
+                <TextView
+                android:id="@+id/sta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="@dimen/txt_16sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <ImageView
+
+                android:layout_width="280dp"
+                android:layout_gravity="center"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+
+
+                android:id="@+id/d_pic" />
+
+
+                <TextView
+                    android:id="@+id/d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_14sp"
+                    android:lineSpacingMultiplier="1.2"
+
+                    android:text=""
+                    android:textColor="@color/white_smoke"
+                    android:layout_marginTop="@dimen/pad_20dp"
+                    android:layout_marginLeft="20dp"
+                    />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+

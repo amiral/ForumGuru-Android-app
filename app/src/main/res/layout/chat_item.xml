@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:padding="@dimen/pad_10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/pad_5dp" android:src="@drawable/ic_online"
+        android:id="@+id/a" />
+    <ImageView android:layout_width="50dp"
+        android:layout_height="80dp" android:src="@drawable/user"
+        android:id="@+id/p_pic" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pad_10dp" android:layout_weight="1.0"
+        android:touchscreenBlocksFocus="true"
+        android:transitionGroup="false">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/txt_15sp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white" android:ellipsize="end"
+                android:id="@+id/tv1" android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:lines="1" android:layout_weight="1.0"
+                android:onClick="userprofile" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/txt_12sp"
+            android:textColor="@color/white_smoke"
+            android:paddingTop="10dp"
+            android:ellipsize="end" android:id="@+id/tv2"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:lines="1" />
+
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pad_5dp">
+
+    </LinearLayout>
+</LinearLayout>

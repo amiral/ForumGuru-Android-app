@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.omc.lilliput.Compose"
+    android:background="@drawable/front1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#502B3F"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Post into blog"
+
+            android:textColor="#ffffff"
+
+
+            android:textSize="20sp"
+            android:textStyle="bold"
+android:layout_marginLeft="@dimen/pad_20dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+         />
+
+
+
+    </LinearLayout>
+    <ImageView android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/imv"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_compose"
+        android:layout_marginTop="@dimen/pad_10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/c_sub"
+        android:textColor="@color/white"
+        android:hint="Subject..."
+
+        android:layout_below="@+id/imv"
+
+        android:layout_marginTop="25dp"
+         />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/status1"
+        android:textColor="@color/white"
+        android:hint="Description..."
+        android:layout_below="@+id/imv"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="Choose pic"
+        android:background="#C0A8AA"
+        android:textColor="#fff"
+        android:id="@+id/test"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/c_sub"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="Post"
+        android:layout_gravity="center_horizontal"
+        android:background="#D24958"
+        android:textColor="#fff"
+        android:id="@+id/updatestatus"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/test"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>
